@@ -1,0 +1,15 @@
+Enter people involved: a, b, c
+
+Enter total bill amount (inc tax, exc discount)(csv): 100
+Enter discounted bill amount (finally paid): 90
+Enter taxes (csv in case of sgst,cgst,sch): 10
+
+Enter the amount of each item and then names of people who split it
+If multiple shares, enter the name multiple times
+If everyone has a share, enter 'all'
+Example: 200, abc, abc, all: Gives 3 shares to person abc, and 1 share to all
+
+60, a, b
+15, a
+10, all, a
+5, c
