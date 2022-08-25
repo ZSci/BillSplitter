@@ -15,8 +15,8 @@ def csv_input(inp=""):
 	return [i.strip() for i in inp.split(',')]
 
 def read_ifile(fstr="template"):
-	if not ".csv" in fstr:
-		fstr += ".csv"
+	if not ".txt" in fstr:
+		fstr += ".txt"
 	
 	with open(fstr, 'r') as f:
 		cont = f.readlines()
