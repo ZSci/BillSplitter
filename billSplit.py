@@ -35,7 +35,7 @@ def main():
 	while True:
 		redo = False
 		inp = input('Item amount: ')
-		if inp is 'q': break
+		if inp == 'q': break
 		inp = float(inp)
 		people = csv_input('People who split this item (csv): ')
 
