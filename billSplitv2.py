@@ -47,7 +47,7 @@ def main():
 				except KeyError as k:
 					print(k)
 					print("ERROR! Person entered for item not available. Check people involved")
-			print('Current shares: ', shares, '. Current total: ', sum(shares.values()))
+			print('Current shares: ', shares, '. Current total: ', round(sum(shares.values()), 2))
 
 	total_before_tax = sum(shares.values())
 
