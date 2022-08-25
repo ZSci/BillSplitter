@@ -54,7 +54,7 @@ def main():
 		for person in people:
 			shares[person] += round(inp/len(people), 2)
 
-		print('Current shares: ', shares, '. Current total: ', sum(shares.values()))
+		print('Current shares: ', shares, '. Current total: ', round(sum(shares.values()), 2))
 
 	total_before_tax = sum(shares.values())
 
